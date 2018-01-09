@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Enlace Icono de Pestaña-->
-  <link rel="icon" href="">
+  <link rel="icon" href="../assets/images/bebe.ico">
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
   <!-- Enlace a Bootstrap compilado y minificado-->
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
@@ -15,15 +15,15 @@
   <section class="bg-fondo">
     <div class="trans">
       <div class="container">
-        <div>
-          <img src="" alt="logo">
+        <div class="logo">
+          <img src="../assets/images/bebe.png" class="responsive-img" alt="logo">
         </div>
         <div class="row center-align">
           <form class="col s12">
             <div class="row">
               <div class="input-field col s12">
-                <input id="last_name" type="text" class="validate">
-                <label for="last_name">Usuario</label>
+                <input id="email" type="email" class="validate">
+                <label for="email" data-error="wrong" data-success="right">Email</label>
               </div>
             </div>
             <div class="row">
@@ -33,11 +33,52 @@
               </div>
             </div>
           </form>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Login</button>
+          <a class="btn waves-effect waves-light modal-trigger login" href="#modal2" type="submit" name="action">Iniciar Sesión</a>
+           <!-- Modal Trigger -->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Registrate</a>
+          <hr class="line">
+          <div class="prueba">
+            <p class="test"></p>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- Modal Structure 1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Registrate</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email1" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password1" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat register">Crear cuenta</a>
+    </div>
+  </div>
+  <!-- Modal Structure 2 -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Aviso</h4>
+      <p>Oh no, completa tu registro correctamente</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Aceptar</a>
+    </div>
+  </div>
   <!-- jQuery (necesario para los complementos de JavaScript de Bootstrap) -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <!-- Enlace a Bootstrap compilado y minificado-->

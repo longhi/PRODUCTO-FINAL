@@ -47,3 +47,22 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.line {
+  margin-top: 50px;
+  overflow: visible;
+}
+
+.line:after {
+  content: 'O CONECTATE CON';
+  font-size: 16px;
+  background-color: rgb(244, 236, 232);
+  position: relative;
+  top: -0.8em;
+  padding: 0 2em;
+}
+
+.logo {
+  height: 20vh;
+  width: 20vh;
+}
