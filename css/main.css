@@ -1,6 +1,7 @@
 body {
-  background-color: #ABEBC6;
-  color: black;
+  background-image: url(../assets/images/fondo.png);
+  background-size:cover;
+  font-family: 'Questrial', sans-serif;
 }
 
 .bg-color {
