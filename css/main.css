@@ -68,6 +68,10 @@ body {
   width: 20vh;
 }
 
+.logoUp{
+  margin-left: 33px;
+}
+
 .container {
   padding: 20px;
 }
@@ -93,4 +97,40 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
     border-radius: 5px;
+}
+
+.chat-block {
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.chat-block .title {
+    background: #8dc63f;
+    padding: 2px 20px;
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    margin: 0 auto 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.online {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.online li {
+  display: inline;
+  margin: 0 5px;
+}
+
+img.profile-photo {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
 }
