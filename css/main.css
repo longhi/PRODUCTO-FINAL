@@ -1,7 +1,6 @@
 body {
   background-color: #ABEBC6;
   color: black;
-  font-family: 'Questrial', sans-serif;
 }
 
 .bg-color {
@@ -13,6 +12,8 @@ body {
 }
 
 .effect {
+  height: 30vh;
+  width: 30vh;
   animation-name: rebote;
   animation-duration: 3s;
   animation-iteration-count: 1;
@@ -65,4 +66,31 @@ body {
 .logo {
   height: 20vh;
   width: 20vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+.box {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow:  0px 2px 11px 6px rgba(88,87,97,1);
+  /* box-shadow: 5px 5px 5px black; */
+}
+
+.box-2 {
+  /* background-color: white; */
+  margin-top: 20px;
+
+}
+
+.new-item {
+  background-color: white;
+  box-shadow:  0px 2px 11px 6px rgba(88,87,97,1);
+  /* box-shadow: 5px 5px 5px black; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+    border-radius: 5px;
 }

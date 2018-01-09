@@ -14,13 +14,13 @@
 </head>
 <body>
   <header>
-    <ul id="slide-out" class="side-nav">
+    <ul id="slide-out" class="side-nav fixed">
      <li><div class="user-view">
        <div class="background">
          <img src="../assets/images/fondo-avatar.jpg">
        </div>
        <a href="#!user"><img class="circle" src="../assets/images/mama.png"></a>
-       <a href="#!name"><span class="black-text name">MARIA</span></a>
+       <a href="#!name"><span class="black-text name">Maria</span></a>
      </div></li>
      <li><a href="#!"><i class="material-icons">person</i>Mi Perfil</a></li>
      <li><div class="divider"></div></li>
@@ -30,12 +30,76 @@
      <li><a class="waves-effect" href="#!"><i class="material-icons">create</i>Nombres bebes</a></li>
      <li><a class="waves-effect" href="#!"><i class="material-icons">assignment_ind</i>Consultoría profesional</a></li>
      <li><a class="waves-effect" href="#!"><i class="material-icons">shopping_cart</i>Tienda</a></li>
-   </ul>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
   </header>
-  <section>
-
-  </section>
- <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+  <main>
+    <div class="container">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12 box">
+              <i class="material-icons prefix">mode_edit</i>
+              <textarea id="icon_prefix2" class="materialize-textarea new-text" placeholder="¿Qué estas pensando?"></textarea>
+            </div>
+          </div>
+        </form>
+        <button id="send" class="btn waves-effect waves-light" type="submit">Publicar</button>
+        <div class="col s12 box-2">
+          <div class="row" id="content">
+            <div class="new-item">
+              <div class="row">
+                <div class="col s2">
+                  <img src="../assets/images/mama.png" alt="" class="circle responsive-img">
+                </div>
+                <div class="col s10">
+                  <span class="black-text">
+                    <strong>Karina</strong> a compartido una imagen 4horas.
+                  </span>
+                </div>
+              </div>
+              <p>Esperandote bebe :)</p>
+              <div>
+                <img class="responsive-img" src="../assets/images/fondo-avatar.jpg">
+              </div>
+            </div>
+            <div class="new-item">
+              <div class="row">
+                <div class="col s2">
+                  <img src="../assets/images/mama.png" alt="" class="circle responsive-img">
+                </div>
+                <div class="col s10">
+                  <span class="black-text">
+                    <strong>Karina</strong> a compartido una imagen 4horas.
+                  </span>
+                </div>
+              </div>
+              <p>Esperandote bebe :)</p>
+              <div>
+                <img class="responsive-img" src="../assets/images/fondo-avatar.jpg">
+              </div>
+            </div>
+            <div class="new-item">
+              <div class="row">
+                <div class="col s2">
+                  <img src="../assets/images/mama.png" alt="" class="circle responsive-img">
+                </div>
+                <div class="col s10">
+                  <span class="black-text">
+                    <strong>Karina</strong> a compartido una imagen 4horas.
+                  </span>
+                </div>
+              </div>
+              <p>Esperandote bebe :)</p>
+              <div>
+                <img class="responsive-img" src="../assets/images/fondo-avatar.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
  <!-- Enlace a Bootstrap compilado y minificado-->
  <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
